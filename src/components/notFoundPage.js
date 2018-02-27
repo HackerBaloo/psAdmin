@@ -3,7 +3,7 @@
 var React = require('react');
 var Link = require('react-router').Link;
 
-var NotFound = React.createClass( {
+var NotFoundPage = React.createClass( {
   render: function() {
     return (
       <div>
@@ -15,4 +15,4 @@ var NotFound = React.createClass( {
   }
 });
 
-module.exports = NotFound;
+module.exports = NotFoundPage;
