@@ -24,7 +24,7 @@ var Input = React.createClass({
                     <input type="text"
                         name={this.props.name}
                         className="form-control"
-                        placeholder={this.props.placeholder}
+                        placeholder={this.props.placeholder == null ? this.props.label : this.props.placeholder}
                         ref={this.props.name}
                         onChange={this.props.onChange}
                         value={this.props.value} />
