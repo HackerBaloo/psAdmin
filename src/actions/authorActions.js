@@ -11,7 +11,7 @@ var AuthorActions = {
         Dispather.dispatch({
             actionType: ActionTypes.CREATE_AUTHOR,
             author: newAuthor
-        })
+        });
     }
 };
 
